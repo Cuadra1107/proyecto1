@@ -1,0 +1,117 @@
+{
+    "libros":[
+        {
+            "id":"1",
+            "nombre":"Don Quijote de la Mancha de Miguel de Cervantes",
+            "autor":"Miguel de Cervantes",
+            "descripcion":"La cuna del hidalgo. Nombre, retrato y descripción de sus costumbres. La lectura de los libros de caballerías le hace perder el juicio. El hidalgo decide revivir la caballería andante. Repara sus armas. Busca un nombre para su caballo: Rocinante. El hidalgo inventa a don Quijote. Elige por dama a Dulcinea del Toboso.",
+            "año":"",
+            "portada":"src/images/L1.jpg"
+        },{
+            "id": "2",
+            "nombre": "El Diario de Ana Frank",
+            "autor": "",
+            "descripcion":"El Diario de Ana Frank fue escrito por una niña judía llamada Annelies Marie Frank durante la Segunda Guerra Mundial. Para hablar del contexto sociopolítico, debemos trasladarnos al año 1933, fecha en la que Adolf Hitler accede se erige sumo canciller de Alemania. A partir de este momento, las medidas contra los judíos empiezan a proliferar. Por este motivo, muchos decidieron emigrar a otros países como Holanda, Suiza, Estados Unidos, etc.",
+            "año": "",
+            "portada": "src/images/L2.jpg"
+        },{
+            "id": "3",
+            "nombre": "Cien Años de Soledad",
+            "autor": "Gabriel García Márquez",
+            "descripcion":"En 1967 el escritor y periodista colombiano, Gabriel García Márquez, entrega a la editorial Sudamericana de Buenos Aires, en dos partes, una novela que escribió en México durante 18 meses previos de duro trabajo. Había pensado titularla, en un primer momento, 'La casa', pero para evitar confusiones con la obra de su amigo y coetáneo Cepeda Samudio, la rotuló finalmente 'Cien años de soledad', alcanzando el éxito inmediato y convirtiéndose en el símbolo y seña de un movimiento literario que se ha dado en llamar Realismo Mágico.",
+            "año": "1967",
+            "portada": "src/images/L3.jpg"
+        },{
+            "id": "4",
+            "nombre": "Viaje al Centro de la Tierra",
+            "descripcion":"Viaje al centro de la Tierra (título original en francés: Voyage au centre de la Terre) escrita por Julio Verne y fecha de primera publicación el 25 de noviembre de 1864, es la más imaginativa y destacada obra de la narrativa de aventuras que se escribió hasta esa fecha. Todo en Viaje al centro de la Tierra es sinónimo de innovación, de profecía, de futuro, de imaginación arrolladora, en concreto de aventuras maravillosas, para lo cual Julio Verne se implicó en materias como la geología, la mineralogía y la paleontología. Las detalladas descripciones de animales antediluvianos maravillaron a los expertos, poniendo de manifiesto su extraordinaria intuición científica.",
+            "autor": "Julio Verne",
+            "año": "1864",
+            "portada": "src/images/L4.jpg"
+        },{
+            "id": "5",
+            "nombre": "Crónica de una muerte anunciada",
+            "autor": "Gabriel García Márquez",
+            "descripcion":"Escrita en el año 1981, por Gabriel García Márquez, alias Gabo, encausa su novela entorno a un hecho histórico y como crónica con temática periodística, narrativa y policíaca. Partiendo de un suceso real acaecido en el año 1951 en Manaure (Departamento de la Guajira, en Colombia), relacionando un crimen e involucrando en forma narrativa a una serie de protagonistas y sus circunstancias.",
+            "año": "1981",
+            "portada": "src/images/L5.jpg"
+        },{
+            "id": "6",
+            "nombre": "El Retrato de Dorian Gray",
+            "descripcion":"El retrato de Dorian Gray (título original: The Picture of Dorian Gray) es la única novela que publicó en vida el autor irlandés Oscar Wilde. Acusada de inmoral en su época, esta historia sobre la búsqueda de la eterna juventud a cualquier precio, es considerada hoy uno de los clásicos modernos de la literatura occidental.",
+            "autor": "Oscar Wilde",
+            "año": "-",
+            "portada": "src/images/L6.jpg"
+        },{
+            "id": "7",
+            "nombre": "Lazarillo de Tormes",
+            "autor": "Anonimo",
+            "descripcion":"El Lazarillo de Tormes es la primera novela picaresca de la literatura española. Publicada en 1554, en pleno apogeo de la literatura de caballerías y romances, cuenta, en primera persona, las aventuras y desventuras de Lázaro, o Lazarillo de Tormes, desde su nacimiento y paso por diferentes amos, hasta su llegada a pregonero de la ciudad de Toledo. Su autor es anónimo, posiblemente porque la obra supone una feroz crítica al clero y a la sociedad de la época. Sobre su autoría se barajaron nombres como el monje Juan de Ortega, el escritor dramático Sebastián de Orozco y el humanista Diego Hurtado de Mendoza, pero no se ha podido demostrar ninguna de ellas. La novela estuvo prohibida hasta 1537, y la Inquisición la incluyó dentro del Índice de libros prohibidos.",
+            "año": "",
+            "portada": "src/images/L7.jpg"
+        },{
+            "id": "8",
+            "nombre": "Robinson Crusoe",
+            "autor": "Daniel Defoe",
+            "descripcion":"Robinson Crusoe es uno de los libros de aventuras más famosos del mundo. Fue escrito por Daniel Defoe en 1791 y se considera la primera novela inglesa como tal. Cuenta la historia del joven Robinson Crusoe que, desobedeciendo los deseos de su padre, embarca en un largo viaje como marinero a bordo de un barco de negocios. Pero una gran tormenta abate el barco en el que viajaba, naufragando a una isla deshabitada cerca de Venezuela. Solo y sin medio de escapar, pasarán sus aventuras en la isla en la que permanece durante 28 años.",
+            "año": "1791",
+            "portada": "src/images/L8.jpg"
+        },{
+            "id": "9",
+            "nombre": "La Vida es un Sueño",
+            "autor": "Calderon de la Barca",
+            "descripcion":"Los investigadores literarios de la obra de Calderón de la Barca afirman, basándose en un comentario de Lope de Vega, que La vida es sueño pudo ser escrita entre los años 1627 y 1629. La razón de que no se publicara hasta 1636 obedece a que hasta el año 1635 no se levantaría la prohibición real de imprimir comedias en Castilla. Es en este año de 1636 cuando aparece publicada la obra 'Primera parte de comedias de Don Pedro Calderón de la Barca escogidas por Don Ioseph Calderón, su hermano'.",
+            "año": "1627 - 1629",
+            "portada": "src/images/L9.jpg"
+        },{
+            "id": "10",
+            "nombre": "La Celestina",
+            "autor": "Fernando de Rojas",
+            "descripcion":"Después de unos años de confusión o indeterminación de autoría, hoy en día la práctica totalidad de la crítica literaria considera a Fernando de Rojas el verdadero autor de ‘La Celestina’. Entre las varias ediciones que datan de la fecha aproximada de creación, y teniendo en cuenta que la obra había circulado ya manuscrita antes de ser impresa, el análisis literario se centra en dos ejemplares principales: El primero de ellos aparecido en Burgos en 1499, ejemplar estructurado en 16 actos, al que le falta la portada y no tiene mención de autoría. Se le supone el título de ‘Comedia de Calysto y Melybea’.",
+            "año": "",
+            "portada": "src/images/L10.jpg"
+        },{
+            "id": "11",
+            "nombre": "Rebelión de la Granja",
+            "autor": "George Orwell",
+            "descripcion":"Rebelión en la granja (título original en inglés: Animal farm) es una fábula satírica escrita por George Orwell en 1945 acerca de una granja donde los animales toman el poder y forman su propio gobierno, que acabará convirtiéndose en una tiranía brutal. Se considera una crítica velada de la Revolución Rusa y a la corrupción del socialismo soviético en los tiempos de Stalin. El tema principal de la obra es el abuso de poder, y cómo este corrompe a los que lo poseen, llevando a la avaricia, la discriminación y la traición. Así, los cerdos de Rebelión en la granja usan su poder para manipular y engañar a los otros animales y afianzar su dominio sobre ellos.",
+            "año": "",
+            "portada": "src/images/11.jpg"
+        },{
+            "id": "12",
+            "nombre": "1984",
+            "autor": "George Orwell",
+            "descripcion":"1984 (publicada el 8 de junio de 1949 bajo el título original de Nineteen Eighty-Four) es una novela de ficción distópica que examina los peligros del autoritarismo. Supone una crítica a los sistemas de gobierno totalitarios, especialmente al comunismo stalinista, y al uso de técnicas de control social para anular las libertades del individuo, introduciendo los conceptos del omnipresente y vigilante Gran Hermano, de la policía del pensamiento y de la neolengua, adaptación del inglés en la que se reduce y se transforma el léxico con fines represivos. Se considera uno de los libros más influyentes del siglo XX.",
+            "año": "1949",
+            "portada": "src/images/L12.jpg"
+        },{
+            "id": "13",
+            "nombre": "Romancero Gitano",
+            "autor": "Federico Garcia Lorca",
+            "descripcion":"Federico García Lorca es sin duda una de las personalidades más destacadas de la Generación del 27, tanto por su producción literaria como por su participación en la vida cultural. Su obra poética y teatral son uno de los referentes más importantes de la historia de la literatura universal. Como hemos dicho, Lorca forma parte de la Generación del 27, un grupo de escritores que se caracteriza por su predilección por los movimientos estéticos vanguardistas, aunque, a diferencia de los escritores de la Generación del 98, no rechazan la literatura anterior, de la cual heredan las formas y los temas de la lírica popular (Romancero y cancionero tradicional) y de la culta (Góngora, Quevedo, Juan Ramón Jiménez, Bécquer, Antonio Machado, etc.).",
+            "año": "",
+            "portada": "src/images/L13.jpg"
+        },{
+            "id": "14",
+            "nombre": "El si de las niñas",
+            "autor": "Leandro Fernández de Moratín",
+            "descripcion":"Leandro Fernández de Moratín escribió la comedia dramática El sí de las niñas en la España de comienzos del siglo XIX. Tras la oleada cultural que supuso la Ilustración, el Enciclopedismo y la filosofía racionalista, el movimiento neoclásico (con raíces en el pensamiento grecolatino e influencia filosófica renacentista) está en pleno auge.",
+            "año": "",
+            "portada": "src/images/L14.jpg"
+        },{
+            "id": "15",
+            "nombre": "La Verdad sobre el caso Savolta",
+            "autor": "Eduardo Mendoza",
+            "descripcion":"En el año 1973 Eduardo Mendoza decidió abandonar Barcelona y mudarse a Nueva York para ser intérprete de la ONU, ya que según él mismo dijo: ‘’España en aquellos años era triste, amarga y violenta’’. En este contexto, un joven emigrante, escribió su primera novela: La verdad sobre el caso Savolta, con la que obtuvo un gran reconocimiento y con la que consiguió el Premio de la Crítica en el año 1976. Félix Azúa nos cuenta que 'Eduardo Mendoza ‘’apareció en el firmamento literario como el cometa Halley: no venía de ningún lugar conocido, nadie sabía adónde se dirigía, y sin embargo marcaba una dirección. Orientaba. Y esa estela ha perdurado hasta el día de hoy’’.",
+            "año": "1973",
+            "portada": "src/images/L15.jpg"
+        },{
+            "id": "16",
+            "nombre": "La Fundación",
+            "autor": "Antonio Buero Vallejo",
+            "descripcion":"La Fundación es una de la obras de Antonio Buero Vallejo que más éxito de público y crítica ha conseguido, tanto por su dramatismo en el argumento como por la novedad en las técnicas dramáticas utilizadas. La obra La Fundación se estrenó en 1974, en los últimos años de la dictadura franquista. La censura estaba más debilitada pero seguía manteniendo el control sobre los medios de comunicación. Para esquivar los rigores de la censura franquista, Antonio Buero Vallejo escribió en una línea posibilista: ajustó el mensaje que quería transmitir a las exigencias de la censura recurriendo al simbolismo y a la reflexión histórica. De esta manera, pudo estrenar sus obras con relativa normalidad. A pesar de esto, el ''posibilismo'' practicado por Buero Vallejo provocó en los años 60 una áspera polémica con el dramaturgo y guionista cinematográfico Alfonso Sastre.",
+            "año": "1974",
+            "portada": "src/images/L16.jpg"
+        }
+    ]
+}
