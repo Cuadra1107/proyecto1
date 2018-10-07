@@ -46,6 +46,27 @@ function cargar_libro() {
     console.log(id);
     id=id[1];
     console.log(id);
+
+
+    $.getJSON("src/javascripts/utilities.json", function (json){
+
+//HACER EL FOR AQUI, para bucar por ID el libro y cargar cada cosa en la pagina 
+            
+            for (var i = 1 ; i >= json.libros.length; i++) {
+                if (id == i) {
+
+                    
+
+                    document.getElementById('portada').src=json.libros[i].portada;
+
+
+                }
+            }
+        });
+
+
+
+
 }
 
 function cargar_noticias() {
