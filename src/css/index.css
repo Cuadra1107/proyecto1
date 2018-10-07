@@ -6,7 +6,7 @@
     --amarillo: #FAD641;
 }
 footer{
-    background-color: #D94C51;
+    background-color: #1E90FF;
     color: #FFFFFF;
     width: 100%;
     position: fixed;
@@ -19,14 +19,14 @@ footer{
     height: 100%;
 }
 .bg-light {
-    background-color: #0DB0F0 !important;
+    background-color: #B22222 !important;
     color: #FFFFFF;
 }
 .navbar-light .navbar-nav .nav-link{
     color: #FFFFFF;
 }
 .navbar-light .navbar-nav .nav-link:hover{
-    color: #FAD641;
+    color: #000000;
 }
 
 .espacio_superior{
@@ -42,16 +42,16 @@ footer{
     color: #FFFFFF;
 }
 .foo_link a:hover{
-    color: #FAD641;
+    color: #000000;
     text-decoration-line: none;
 }
 
 .libro_link{
-    color: #F07C35;
+    color: #000000;
 }
 
 .libro_link:hover{
-    color: #FAD641;
+    color: #1E90FF;
     text-decoration-line: none;
 }
 
@@ -74,5 +74,5 @@ footer{
     padding-bottom: 150px;
 }
 .borde_imagenes{
-    border: black 1px solid;
+    border: black 2px solid;
 }
