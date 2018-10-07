@@ -43,3 +43,20 @@ footer{
     color: #FAD641;
     text-decoration-line: none;
 }
+
+.libro_link{
+    color: #F07C35;
+}
+
+.libro_link:hover{
+    color: #FAD641;
+    text-decoration-line: none;
+}
+
+#libros{
+    padding-top: 40px;
+}
+
+.superior{
+    padding-top: 20px;
+}

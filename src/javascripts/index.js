@@ -6,6 +6,44 @@ $(document).ready(function() {
     $('#footer').append('<div class="row"><div class="col text-center foo_link"><a href="http://" target="_blank" rel="noopener noreferrer">Ubicación</a></div><div class="col text-center foo_link"><a href="http://" target="_blank" rel="noopener noreferrer">Correo</a></div><div class="col text-center foo_link"><a href="http://" target="_blank" rel="noopener noreferrer">Telefono</a></div></div>');
 });
 
-$.getJSON("src/javascripts/utilities.json", function (json) {
-    console.log(json); 
-});
+function cargar_libros() {
+    $.getJSON("src/javascripts/utilities.json", function (json) {
+        console.log(json);
+        json.libros.forEach(element => {
+            console.log(element);
+            var div = document.createElement("div"); 
+            var imagen = document.createElement("img"); 
+            var link = document.createElement("a");
+            var titulo = document.createElement("h3");  
+            var center = document.createElement("center");
+
+            titulo.innerText=element.nombre;
+            link.appendChild(titulo);
+            link.href="libro.html?id="+element.id;
+            link.classList.add("libro_link");
+            imagen.src=element.portada;
+            imagen.width=200;
+            imagen.height=320;
+            imagen.style.paddingBottom="10px";
+            center.appendChild(imagen);
+            center.appendChild(link);
+
+
+            div.classList.add("col-md-4");
+            div.classList.add("superior");
+            div.appendChild(center);
+
+            document.getElementById('libros').appendChild(div);
+        });
+        document.getElementById('libros').append
+    });
+}
+
+
+function cargar_libro() {
+    var id = document.location.href.split("?");
+    id=id[1].split("=");
+    console.log(id);
+    id=id[1];
+    console.log(id);
+}
