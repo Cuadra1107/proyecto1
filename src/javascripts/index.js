@@ -51,18 +51,18 @@ function cargar_libro() {
 
     $.getJSON("src/javascripts/utilities.json", function (json){
             
-            for (var i = 0 ; i <= json.libros.length-1; i++) {
-                
-                if (id == json.libros[i].id) {
-                    console.log(json.libros[i].año);
-                    document.getElementById('nombre').innerText=json.libros[i].nombre;
-                    document.getElementById('portada').src=json.libros[i].portada;
-                    document.getElementById('autor').innerText=json.libros[i].autor;
-                    document.getElementById("ano").innerText=json.libros[i].año;
-                    document.getElementById("descripcion").innerText = json.libros[i].descripcion;
-                }
+        for (var i = 0 ; i <= json.libros.length-1; i++) {
+            
+            if (id == json.libros[i].id) {
+                console.log(json.libros[i].año);
+                document.getElementById('nombre').innerText=json.libros[i].nombre;
+                document.getElementById('portada').src=json.libros[i].portada;
+                document.getElementById('autor').innerText=json.libros[i].autor;
+                document.getElementById("ano").innerText=json.libros[i].año;
+                document.getElementById("descripcion").innerText = json.libros[i].descripcion;
             }
-        });
+        }
+    });
 
 
 
@@ -72,6 +72,35 @@ function cargar_libro() {
 function cargar_noticias() {
     $.getJSON("src/javascripts/news.json", function (json) {
         console.log(json);
+        console.log(json);
+        json.noticias.forEach(element => {
+            console.log(element);
+            var div = document.createElement("div");
+            var link = document.createElement("a");
+            var titulo = document.createElement("h3");
+            var desc = document.createElement("p");
+            var division = document.createElement("hr");
+
+            titulo.innerText = element.titulo;
+            desc.innerText=element.cuerpo.substring(0,50);
+
+            link.appendChild(titulo);
+            link.href = "noticia.html?id=" + element.id;
+            link.classList.add("libro_link");
+
+            link.style.paddingBottom = "10px";
+            div.appendChild(link);
+            div.appendChild(desc);
+            div.appendChild(division);
+
+            div.classList.add("col-md-8");
+            div.classList.add("superior");
+
+            //div.appendChild(center);
+
+            document.getElementById('news').appendChild(div);
+        });
+        document.getElementById('news').append
     });
 }
 
@@ -81,4 +110,18 @@ function cargar_noticia() {
     console.log(id);
     id = id[1];
     console.log(id);
+
+    $.getJSON("src/javascripts/news.json", function (json) {
+        console.log(json);
+        for (var i = 0; i <= json.noticias.length - 1; i++) {
+
+            if (id == json.noticias[i].id) {
+                
+                document.getElementById('titulo').innerText = json.noticias[i].titulo;
+                document.getElementById('descripcion').innerText = json.noticias[i].cuerpo;
+                document.getElementById("link").innerText = json.noticias[i].fuente;
+                document.getElementById("link").href = json.noticias[i].fuente;
+            }
+        }
+    });
 }

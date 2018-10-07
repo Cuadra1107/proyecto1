@@ -9,6 +9,8 @@ footer{
     background-color: #D94C51;
     color: #FFFFFF;
     width: 100%;
+    position: fixed;
+    bottom: 0px;
 }
 #sidebar{
     background-color: var(--celeste);
@@ -55,6 +57,7 @@ footer{
 
 #libros{
     padding-top: 40px;
+    padding-bottom: 75px;
 }
 
 .superior{
@@ -63,4 +66,9 @@ footer{
 
 .zoom:hover {
     transform: scale(1.5);
+}
+
+.texto{
+    margin: auto;
+    width: 75%;
 }
