@@ -52,11 +52,10 @@ function cargar_libro() {
 
 //HACER EL FOR AQUI, para bucar por ID el libro y cargar cada cosa en la pagina 
             
-            for (var i = 1 ; i >= json.libros.length; i++) {
-                if (id == i) {
-
-                    
-
+            for (var i = 0 ; i <= json.libros.length-1; i++) {
+                
+                if (id == json.libros[i].id) {
+                    console.log(json.libros[i].portada);
                     document.getElementById('portada').src=json.libros[i].portada;
 
 
