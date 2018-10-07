@@ -72,3 +72,6 @@ footer{
     margin: auto;
     width: 75%;
 }
+.borde_imagenes{
+    border: black 1px solid;
+}
