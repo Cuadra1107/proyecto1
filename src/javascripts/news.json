@@ -1,0 +1,20 @@
+{
+    "noticias":[
+        {
+            "id":"1",
+            "titulo":"",
+            "cuerpo":"",
+            "fuente":""
+        },{
+            "id": "2",
+            "titulo": "",
+            "cuerpo": "",
+            "fuente": ""
+        },{
+            "id": "3",
+            "titulo": "",
+            "cuerpo": "",
+            "fuente": ""
+        }
+    ]
+}

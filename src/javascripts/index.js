@@ -47,3 +47,17 @@ function cargar_libro() {
     id=id[1];
     console.log(id);
 }
+
+function cargar_noticias() {
+    $.getJSON("src/javascripts/news.json", function (json) {
+        console.log(json);
+    });
+}
+
+function cargar_noticia() {
+    var id = document.location.href.split("?");
+    id = id[1].split("=");
+    console.log(id);
+    id = id[1];
+    console.log(id);
+}
