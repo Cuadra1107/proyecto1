@@ -60,3 +60,7 @@ footer{
 .superior{
     padding-top: 20px;
 }
+
+.zoom:hover {
+    transform: scale(1.5);
+}

@@ -24,6 +24,7 @@ function cargar_libros() {
             imagen.src=element.portada;
             imagen.width=200;
             imagen.height=320;
+            imagen.classList.add("zoom");
             imagen.style.paddingBottom="10px";
             center.appendChild(imagen);
             center.appendChild(link);
@@ -49,16 +50,16 @@ function cargar_libro() {
 
 
     $.getJSON("src/javascripts/utilities.json", function (json){
-
-//HACER EL FOR AQUI, para bucar por ID el libro y cargar cada cosa en la pagina 
             
             for (var i = 0 ; i <= json.libros.length-1; i++) {
                 
                 if (id == json.libros[i].id) {
-                    console.log(json.libros[i].portada);
+                    console.log(json.libros[i].año);
+                    document.getElementById('nombre').innerText=json.libros[i].nombre;
                     document.getElementById('portada').src=json.libros[i].portada;
-
-
+                    document.getElementById('autor').innerText=json.libros[i].autor;
+                    document.getElementById("ano").innerText=json.libros[i].año;
+                    document.getElementById("descripcion").innerText = json.libros[i].descripcion;
                 }
             }
         });

@@ -5,14 +5,14 @@
             "nombre":"Don Quijote de la Mancha de Miguel de Cervantes",
             "autor":"Miguel de Cervantes",
             "descripcion":"La cuna del hidalgo. Nombre, retrato y descripción de sus costumbres. La lectura de los libros de caballerías le hace perder el juicio. El hidalgo decide revivir la caballería andante. Repara sus armas. Busca un nombre para su caballo: Rocinante. El hidalgo inventa a don Quijote. Elige por dama a Dulcinea del Toboso.",
-            "año":"",
+            "año":"1605",
             "portada":"src/images/L1.jpg"
         },{
             "id": "2",
             "nombre": "El Diario de Ana Frank",
-            "autor": "",
+            "autor": "Anna Frank",
             "descripcion":"El Diario de Ana Frank fue escrito por una niña judía llamada Annelies Marie Frank durante la Segunda Guerra Mundial. Para hablar del contexto sociopolítico, debemos trasladarnos al año 1933, fecha en la que Adolf Hitler accede se erige sumo canciller de Alemania. A partir de este momento, las medidas contra los judíos empiezan a proliferar. Por este motivo, muchos decidieron emigrar a otros países como Holanda, Suiza, Estados Unidos, etc.",
-            "año": "",
+            "año": "1947",
             "portada": "src/images/L2.jpg"
         },{
             "id": "3",
@@ -40,14 +40,14 @@
             "nombre": "El Retrato de Dorian Gray",
             "descripcion":"El retrato de Dorian Gray (título original: The Picture of Dorian Gray) es la única novela que publicó en vida el autor irlandés Oscar Wilde. Acusada de inmoral en su época, esta historia sobre la búsqueda de la eterna juventud a cualquier precio, es considerada hoy uno de los clásicos modernos de la literatura occidental.",
             "autor": "Oscar Wilde",
-            "año": "-",
+            "año": "1890",
             "portada": "src/images/L6.jpg"
         },{
             "id": "7",
             "nombre": "Lazarillo de Tormes",
             "autor": "Anonimo",
             "descripcion":"El Lazarillo de Tormes es la primera novela picaresca de la literatura española. Publicada en 1554, en pleno apogeo de la literatura de caballerías y romances, cuenta, en primera persona, las aventuras y desventuras de Lázaro, o Lazarillo de Tormes, desde su nacimiento y paso por diferentes amos, hasta su llegada a pregonero de la ciudad de Toledo. Su autor es anónimo, posiblemente porque la obra supone una feroz crítica al clero y a la sociedad de la época. Sobre su autoría se barajaron nombres como el monje Juan de Ortega, el escritor dramático Sebastián de Orozco y el humanista Diego Hurtado de Mendoza, pero no se ha podido demostrar ninguna de ellas. La novela estuvo prohibida hasta 1537, y la Inquisición la incluyó dentro del Índice de libros prohibidos.",
-            "año": "",
+            "año": "1554",
             "portada": "src/images/L7.jpg"
         },{
             "id": "8",
@@ -68,14 +68,14 @@
             "nombre": "La Celestina",
             "autor": "Fernando de Rojas",
             "descripcion":"Después de unos años de confusión o indeterminación de autoría, hoy en día la práctica totalidad de la crítica literaria considera a Fernando de Rojas el verdadero autor de ‘La Celestina’. Entre las varias ediciones que datan de la fecha aproximada de creación, y teniendo en cuenta que la obra había circulado ya manuscrita antes de ser impresa, el análisis literario se centra en dos ejemplares principales: El primero de ellos aparecido en Burgos en 1499, ejemplar estructurado en 16 actos, al que le falta la portada y no tiene mención de autoría. Se le supone el título de ‘Comedia de Calysto y Melybea’.",
-            "año": "",
+            "año": "1499",
             "portada": "src/images/L10.jpg"
         },{
             "id": "11",
             "nombre": "Rebelión de la Granja",
             "autor": "George Orwell",
             "descripcion":"Rebelión en la granja (título original en inglés: Animal farm) es una fábula satírica escrita por George Orwell en 1945 acerca de una granja donde los animales toman el poder y forman su propio gobierno, que acabará convirtiéndose en una tiranía brutal. Se considera una crítica velada de la Revolución Rusa y a la corrupción del socialismo soviético en los tiempos de Stalin. El tema principal de la obra es el abuso de poder, y cómo este corrompe a los que lo poseen, llevando a la avaricia, la discriminación y la traición. Así, los cerdos de Rebelión en la granja usan su poder para manipular y engañar a los otros animales y afianzar su dominio sobre ellos.",
-            "año": "",
+            "año": "1946",
             "portada": "src/images/L11.jpg"
         },{
             "id": "12",
@@ -89,14 +89,14 @@
             "nombre": "Romancero Gitano",
             "autor": "Federico Garcia Lorca",
             "descripcion":"Federico García Lorca es sin duda una de las personalidades más destacadas de la Generación del 27, tanto por su producción literaria como por su participación en la vida cultural. Su obra poética y teatral son uno de los referentes más importantes de la historia de la literatura universal. Como hemos dicho, Lorca forma parte de la Generación del 27, un grupo de escritores que se caracteriza por su predilección por los movimientos estéticos vanguardistas, aunque, a diferencia de los escritores de la Generación del 98, no rechazan la literatura anterior, de la cual heredan las formas y los temas de la lírica popular (Romancero y cancionero tradicional) y de la culta (Góngora, Quevedo, Juan Ramón Jiménez, Bécquer, Antonio Machado, etc.).",
-            "año": "",
+            "año": "1928",
             "portada": "src/images/L13.jpg"
         },{
             "id": "14",
             "nombre": "El si de las niñas",
             "autor": "Leandro Fernández de Moratín",
             "descripcion":"Leandro Fernández de Moratín escribió la comedia dramática El sí de las niñas en la España de comienzos del siglo XIX. Tras la oleada cultural que supuso la Ilustración, el Enciclopedismo y la filosofía racionalista, el movimiento neoclásico (con raíces en el pensamiento grecolatino e influencia filosófica renacentista) está en pleno auge.",
-            "año": "",
+            "año": "1806",
             "portada": "src/images/L14.jpg"
         },{
             "id": "15",
