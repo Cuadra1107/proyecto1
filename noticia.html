@@ -34,7 +34,27 @@
         <strong><p>Fuente:</p></strong>
         <a href="" id="link"></a>
     </div>
-
+    <div style="margin:auto;width:75%;padding-bottom: 150px;" class="animated slideInUp">
+        <hr>
+        <div id="comments">
+            <h3>Comentarios</h3>
+        </div>
+        <div id="commentsBox">
+            <hr>
+            <h3>Añada su comentario</h3>
+            <form>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Nombre</label>
+                    <input type="text" class="form-control" id="name" placeholder="Nombre">
+                </div>
+                <div class="form-group">
+                    <label for="comment">Comentario</label>
+                    <textarea class="form-control" id="comment" rows="3"></textarea>
+                </div>
+                <button type="button" class="btn btn-success" onclick="comentar();">Comentar</button>
+            </form>
+        </div>
+    </div>
     <footer id="footer"> </footer>
 
 
@@ -42,6 +62,15 @@
         $(document).ready(function () {
             cargar_noticia();
         });
+
+        function comentar() {
+                var name = $('#name').val();
+                var comment = $('#comment').val();
+
+                $('#comments').append('<div><h3>' + name + '</h3><p>' + comment + '</p></div>');
+                $('#name').val("");
+                $('#comment').val("");
+        }
     </script>
 </body>
 
