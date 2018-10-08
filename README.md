@@ -1,10 +1,10 @@
 # Proyecto1
 Proyecto 1 Programacion 3
 
-#Autores
+# Autores
 Roger Cuadra & Evans Duran
 ---
-#Objetivos del Proyecto
+# Objetivos del Proyecto
 
 *Objetivo General*: Cumplir con los parámetros establecidos previamente para la creación de una página web capaz de ser fácil de usar para cualquier persona y también llamar la atención de los usuarios por medio de su diseño y contenido disponible.
 
@@ -12,11 +12,11 @@ Roger Cuadra & Evans Duran
 
 ---
 
-#Manual de Usuario
+# Manual de Usuario
 
 [Manual](https://github.com/Cuadra1107/proyecto1/blob/master/Documentacion_y_Manual_de_usuario.docx)
 
 ---
-#Licencia
+# Licencia
 *GNU GENERAL PUBLIC LICENSE*
 (https://www.gnu.org/licenses/gpl-3.0.html)
